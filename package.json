@@ -1,0 +1,41 @@
+{
+  "name": "calculator-api",
+  "version": "1.0.0",
+  "description": "calculator that takes a .txt with mathematical equation written inside it. If the text file contains valid mathematical equation it will show the result of that equation",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "dev": "nodemon src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafij163/calculator-api.git"
+  },
+  "author": "mostafijur rahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mostafij163/calculator-api/issues"
+  },
+  "homepage": "https://github.com/mostafij163/calculator-api#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.15",
+    "@types/mongoose": "^5.11.97",
+    "@types/multer": "^1.4.7",
+    "@types/socket.io": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "multer": "^1.4.5-lts.1",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "^4.5.4",
+    "tsyringe": "^4.7.0",
+    "typeorm": "^0.3.11"
+  }
+}
